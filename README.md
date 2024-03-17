@@ -7,8 +7,7 @@
 
 Проект использует [Poetry](https://python-poetry.org/) для управления зависимостями. Для установки выполните следующие шаги:
 ```bash
-git clone [URL репозитория]
-cd [название репозитория]
+git clone https://github.com/BigmasterSavage/job_pars
 poetry install
 ```
 
