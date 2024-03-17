@@ -1,6 +1,8 @@
 import streamlit as st
 from src.func import fetch_and_parse_hh_ru_cities, table
 
+st.set_page_config(page_title="Курсовая работа 3", page_icon="style/sky_logo_new.png")
+
 
 col_1, col_2 = st.columns([3, 1])
 with col_1:
@@ -71,7 +73,7 @@ if query:
 
 
 
-# Пока без отдельного файла CSS
+#Пока без отдельного файла CSS
 hide_st_style = """
             <style>
             #MainMenu {visibility: hidden;}
